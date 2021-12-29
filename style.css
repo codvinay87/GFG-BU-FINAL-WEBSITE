@@ -1,0 +1,43 @@
+.myslides {
+    padding: 50px;
+    transition: transform .2s;
+    
+    margin: 0 auto;
+  }
+  .myslides:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .row {
+    padding: 50px;
+    transition: transform .2s;
+    
+    margin: 0 auto;
+  }
+  
+  .row:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+   /* cell number */
+   .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+}
+.wrapper {
+    height: 1vh;
+    /*This part is important for centering*/
+    display:-ms-inline-grid;
+    align-items:baseline !important;
+    text-align: center !important;
+    justify-content: center;
+ 
+    padding: 30px;
+    margin: 40px;
+}
